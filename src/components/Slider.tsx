@@ -1,5 +1,4 @@
 import React, { useRef, useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import imagesApi from "@/api/images.json";
 import {
@@ -18,6 +17,7 @@ import {
 interface IApi {
   id: number;
   url: string;
+  text: string;
 }
 
 export default function Slider() {
@@ -56,23 +56,14 @@ export default function Slider() {
     let tempArrUrl: IApi[] = [];
     for (let i = 0; i < tempApi.length; i++) {
       tempApi.map((value) => {
-        console.log(value);
         tempArrUrl.push(value);
       });
     }
-    // let tempArrUrl: IApi[] = [];
-
-    // tempApi.map((value) => {
-    //   console.log(value);
-
-    //   tempArrUrl.push(value);
-    // });
-
     setImages(tempArrUrl);
   }, []);
 
   return (
-    <div className="xl:w-[1300px] shadow-md mb-5 max-xl:w-full m-auto justify-center overflow-hidden">
+    <div className="xl:w-[1180px] shadow-md mb-5 max-xl:w-full m-auto justify-center overflow-hidden">
       <motion.div className="flex gap-4 py-5 w-full justify-center">
         <motion.div
           style={{ x }}
@@ -81,11 +72,12 @@ export default function Slider() {
           className="flex shrink-0 gap-4"
         >
           {images.map((value, index) => {
-            console.log(value.url);
-
             return (
               <Link href="" key={index}>
-                <img src={value.url} alt="" />
+                <div className="bg-[#161B22] rounded-2xl flex flex-col max-w-[1000000px]">
+                  <img src={value.url} alt="" />
+                  <h2>{value.text}</h2>
+                </div>
               </Link>
             );
           })}

@@ -15,7 +15,7 @@ export default function Header() {
       <Link href="/">
         <motion.img src="/images/logo.png"></motion.img>
       </Link>
-      <motion.ul className="flex text-white font-semibold gap-20">
+      <motion.ul className="flex text-white font-semibold gap-16 text-[20px]">
         <li>
           <Link href="/">Главная</Link>
         </li>

@@ -53,7 +53,7 @@ export default function Appeal() {
               <textarea
                 name="your-message"
                 className="bg-[#212933] w-[500px] h-[240px] rounded-[30px] px-[28px] pt-[10px] text-[20px] pb-[190px] focus:outline-none focus:ring-2 ring-[#2190FF] resize-none scrollbar-none"
-                placeholder="Тема обращения"
+                placeholder="Обращение"
                 required
               />
             </div>
