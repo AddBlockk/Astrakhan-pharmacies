@@ -74,9 +74,12 @@ export default function Slider() {
           {images.map((value, index) => {
             return (
               <Link href="" key={index}>
-                <div className="bg-[#161B22] rounded-2xl flex flex-col max-w-[1000000px]">
+                <div className="bg-[#161B22] rounded-2xl flex flex-col max-w-[372px] dropShadow-3">
                   <img src={value.url} alt="" />
-                  <h2>{value.text}</h2>
+                  <h2 className="h-[auto] text-[22px] font-semibold text-[#D0DFFF] px-[20px] py-[20px]">
+                    {value.text}
+                  </h2>
+                  <p></p>
                 </div>
               </Link>
             );

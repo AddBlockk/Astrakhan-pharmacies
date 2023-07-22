@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient-01 {
+  position: absolute;
+  width: 1180px;
+  height: 200px;
+  filter: blur(100px);
+  background: repeating-linear-gradient(45deg, #4ca5ff, #b673f8);
+  background-size: 400% 100%;
+  background-repeat: repeat-x;
+  z-index: -10;
+  top: -20%;
+  animation: AnimationName 5s linear infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: -33% 50%;
+  }
+  0% {
+    background-position: 100% 50%;
+  }
+}
+
+.dropShadow-1 {
+  transition: all 0.3s ease;
+}
+
+.dropShadow-1:hover {
+  filter: drop-shadow(9px 9px 5px rgba(33, 41, 51, 1));
+}
+
+.dropShadow-2 {
+  transition: all 0.3s ease;
+}
+
+.dropShadow-2:hover {
+  filter: drop-shadow(7px 9px 5px rgba(33, 41, 51, 1));
+}
+
+.dropShadow-3 {
+  transition: all 0.3s ease;
+}
+
+.dropShadow-3:hover {
+  filter: drop-shadow(0px 9px 5px rgba(33, 41, 51, 1));
+}

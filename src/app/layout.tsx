@@ -1,8 +1,8 @@
-import Header from "@/components/Header";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const open_Sans = Open_Sans({ subsets: ["latin"] });
 
@@ -22,6 +22,7 @@ export default function RootLayout({
         className={`open_Sans.className bg-black max-w-[1180px] m-auto text-white h-[100%] scrollbar scrollbar-none`}
       >
         <div className="min-h-[100vh] flex flex-col">
+          <div className="gradient-01 z-0" />
           <Header />
           <main className="flex flex-[1_1_auto]">{children}</main>
           <Footer />

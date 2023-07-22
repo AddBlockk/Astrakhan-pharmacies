@@ -7,9 +7,11 @@ import Slider from "@/components/Slider";
 export default function Activity() {
   return (
     <div className="mt-[120px] place-items-center opacity-100">
-      <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8] text-[48px] text-center font-extrabold mb-[60px]">
-        Виды деятельности
-      </h1>
+      <motion.div>
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8] text-[48px] text-center font-extrabold mb-[60px]">
+          Виды деятельности
+        </h1>
+      </motion.div>
       <Slider />
       <motion.div className="flex mt-[70px] overflow-hidden w-full gap-5"></motion.div>
     </div>

@@ -1,16 +1,16 @@
 "use client";
 
+import { headerVariants } from "@/app/utils/motion";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Header() {
   return (
     <motion.div
-      initial={{ y: "-80px" }}
-      animate={{ y: "0px" }}
-      transition={{ duration: 1, type: "spring", damping: 10 }}
+      variants={headerVariants}
+      initial="hidden"
       className="mt-[30px] mb-[90px] flex justify-between items-center"
+      whileInView="show"
     >
       <Link href="/">
         <motion.img src="/images/logo.png"></motion.img>

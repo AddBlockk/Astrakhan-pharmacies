@@ -7,9 +7,11 @@ import { HistoryTitle } from "@/components/Titles";
 export default function Appeal() {
   return (
     <div className="mt-[120px] max-w-[980px] m-[0_auto]">
-      <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8] text-[48px] text-center font-extrabold mb-[20px]">
-        Обращение граждан
-      </h1>
+      <motion.div>
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8] text-[48px] text-center font-extrabold mb-[20px]">
+          Обращение граждан
+        </h1>
+      </motion.div>
       <motion.div className="grid grid-cols-[1fr_1fr] gap-9 mt-[70px]">
         <motion.div>
           <form action="">

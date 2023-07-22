@@ -2,14 +2,15 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { informationImg, informationText } from "@/app/utils/motion";
 export default function Information() {
   return (
     <div className="grid grid-cols-[1fr_1fr] gap-9">
       <motion.div
-        initial={{ x: "-850px" }}
-        animate={{ x: "0px" }}
-        transition={{ duration: 1, type: "spring" }}
         className="flex flex-col relative"
+        variants={informationText}
+        initial="hidden"
+        whileInView="show"
       >
         <h1 className="uppercase text-6xl font-bold">Астраханские аптеки</h1>
         <h3 className="text-2xl font-bold my-[20px]">
@@ -28,10 +29,10 @@ export default function Information() {
         </h6>
       </motion.div>
       <motion.div
-        initial={{ x: "950px" }}
-        animate={{ x: "0px" }}
-        transition={{ duration: 1, type: "spring" }}
         className="flex flex-col relative"
+        variants={informationImg}
+        initial="hidden"
+        whileInView="show"
       >
         <motion.img src="/images/doctor.png" className="w-[100%]" />
         <Image

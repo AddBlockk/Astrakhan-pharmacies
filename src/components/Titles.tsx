@@ -1,14 +1,29 @@
+"use client";
+
+import { sectionTitle } from "@/app/utils/motion";
+import { motion } from "framer-motion";
+
 export function AboutTitle() {
   return (
-    <div className="text-[#C7C7C7] text-center text-[14px]">
-      | О Астраханских аптеках
-    </div>
+    <motion.div
+      className="text-[#C7C7C7] items-center text-[14px]"
+      variants={sectionTitle}
+      initial="hidden"
+      whileInView="show"
+    >
+      &#448; О Астраханских аптеках
+    </motion.div>
   );
 }
 export function HistoryTitle() {
   return (
-    <div className="text-[#C7C7C7] text-center text-[14px]">
-      | История аптек
-    </div>
+    <motion.div
+      className="text-[#C7C7C7] items-center text-[14px]"
+      variants={sectionTitle}
+      initial="hidden"
+      whileInView="show"
+    >
+      &#448; История аптек
+    </motion.div>
   );
 }
