@@ -10,8 +10,8 @@ export default function MainPage() {
   return (
     <div>
       <Information />
-      {/* <AboutSection />
-      <History />
+      <AboutSection />
+      {/* <History />
       <Appeal />
       <Activity />
       <Competencies /> */}

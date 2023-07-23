@@ -14,7 +14,10 @@ export default function Header() {
       whileInView="show"
     >
       <Link href="/">
-        <motion.img src="/images/logo.png"></motion.img>
+        <motion.img
+          src="/images/logo.png"
+          className="md:m-auto lg:m-0"
+        ></motion.img>
       </Link>
       <motion.ul className={styles.headerNav}>
         <li>

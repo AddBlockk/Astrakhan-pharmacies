@@ -19,11 +19,13 @@ export default function Information() {
           <br />
           <a href={`tel:8-800-300-37-23`}> 8-800-300-37-23</a>
         </h3>
-        <p className={styles.default}>
-          ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ УЧРЕЖДЕНИЕ АСТРАХАНСКОЙ ОБЛАСТИ г.
-          Астрахань ул. Рождественского, 1 лит А
+        <p
+          className={`${styles.default} max-w-[500px] md:max-w-[100%] lg:max-w-[500px]`}
+        >
+          ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ УЧРЕЖДЕНИЕ АСТРАХАНСКОЙ ОБЛАСТИ <br />
+          г. Астрахань ул. Рождественского, 1 лит А
         </p>
-        <p className={`${styles.default} text-white pt-[20px]`}>
+        <p className={`${styles.default} text-white py-[20px]`}>
           ПН-ПТ 08:30 - 17:00
           <br />
           <a href={`tel:8-851-234-38-21`}> (8512) 34-38-21</a>

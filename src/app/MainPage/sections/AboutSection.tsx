@@ -4,24 +4,23 @@ import Image from "next/image";
 import { AboutTitle } from "@/components/Titles";
 import { motion } from "framer-motion";
 import { arrow, aboutTitle } from "@/app/utils/motion";
+import styles from "@/app/media";
 export default function AboutSection() {
   return (
     <div className="mt-[170px] text-center">
       <motion.div variants={aboutTitle} initial="hidden" whileInView="show">
         <AboutTitle />
         <div>
-          <h1 className="text-[48px] font-extrabold mb-[20px]">
+          <h1 className={styles.bigHeading}>
             Добро пожаловать в{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8]">
-              Астраханские аптеки
-            </span>
+            <span className={styles.colorHeading}>Астраханские аптеки</span>
           </h1>
-          <div className="flex flex-col">
-            <p className="mb-[20px] text-[#A3B3BC]">
+          <div className={styles.default}>
+            <p className="mb-[20px]">
               ОФИЦИАЛЬНЫЙ САЙТ ГОСУДАРСТВЕННОГО АВТОНОМНОГО УЧРЕЖДЕНИЯ
               АСТРАХАНСКОЙ ОБЛАСТИ.
             </p>
-            <p>&quot;АСТРАХАНСКИЕ АПТЕКИ&quot;.</p>
+            <p className="text-white">&quot;АСТРАХАНСКИЕ АПТЕКИ&quot;.</p>
           </div>
         </div>
       </motion.div>
