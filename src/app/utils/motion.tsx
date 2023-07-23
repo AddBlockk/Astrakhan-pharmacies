@@ -75,7 +75,6 @@ export const aboutTitle = {
     y: 0,
     transition: {
       duration: 1.5,
-      // stiffnes: 80,
       type: "spring",
     },
   },

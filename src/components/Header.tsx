@@ -16,7 +16,7 @@ export default function Header() {
       <Link href="/">
         <motion.img
           src="/images/logo.png"
-          className="md:m-auto lg:m-0"
+          className="m-auto lg:m-0"
         ></motion.img>
       </Link>
       <motion.ul className={styles.headerNav}>
