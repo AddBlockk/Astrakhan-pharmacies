@@ -6,15 +6,16 @@ import Appeal from "./sections/Appeal";
 import Competencies from "./sections/Competencies";
 import History from "./sections/History";
 import Information from "./sections/Information";
+import { motion } from "framer-motion";
 export default function MainPage() {
   return (
-    <div>
+    <motion.div>
       <Information />
       <AboutSection />
-      {/* <History />
+      <History />
       <Appeal />
       <Activity />
-      <Competencies /> */}
-    </div>
+      <Competencies />
+    </motion.div>
   );
 }
