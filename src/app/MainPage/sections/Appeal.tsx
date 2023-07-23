@@ -12,7 +12,7 @@ export default function Appeal() {
           Обращение граждан
         </h1>
       </motion.div>
-      <motion.div className="grid grid-cols-[1fr_1fr] gap-9 mt-[70px]">
+      <motion.div className="grid lg:grid-cols-[1fr_1fr] grid-cols-[1fr] gap-9 mt-[70px]">
         <motion.div>
           <form action="">
             <div>

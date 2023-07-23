@@ -26,9 +26,9 @@ const styles = {
     "grid grid-cols-[1fr] lg:grid-cols-[1fr_1fr] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start",
   informationText: "max-w-[500px] md:max-w-[1000px]",
   informationImg:
-    "flex relative max-w-[100%] md:m-auto lg:max-w-[100%] shadow-lg drop-shadow-[10px_5px_10px_rgba(0,0,0,1) rounded-[10%]",
+    "flex relative max-w-[100%] md:m-auto lg:max-w-[100%]  drop-shadow-[10px_5px_10px_rgba(0,0,0,0.5)] rounded-[10%]",
   informationChainPeople:
-    "absolute right-4 top-[140px] md:top-56 md:right-32 lg:right-12 xl: w-[auto] h-[auto] md:w-[400px] drop-shadow-[10px_5px_10px_rgba(0,0,0,0.5)]",
+    "absolute right-4 top-[140px] md:top-56 md:right-32 w-[270px] lg:right-12 xl:w-[auto] h-[auto] md:w-[400px] drop-shadow-[10px_5px_10px_rgba(0,0,0,0.5)]",
 
   //aboutSection
   aboutDiv: "",
