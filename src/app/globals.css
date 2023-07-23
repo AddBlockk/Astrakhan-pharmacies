@@ -15,11 +15,11 @@
   animation: AnimationName 5s linear infinite;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .gradient-01 {
     height: 400px;
   }
-}
+} */
 
 @keyframes AnimationName {
   0% {
