@@ -16,7 +16,7 @@ const styles = {
   slider:
     "shadow-md mb-5 max-xl:w-full m-auto justify-center overflow-hidden xl:w-[1180px] max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1180px]",
   sliderContainer:
-    "bg-[#161B22] rounded-2xl flex flex-col max-w-[150px] dropShadow-3 h-[210px] md:h-[220px] lg:h-[250px]",
+    "bg-[#161B22] rounded-2xl flex flex-col max-w-[150px] h-[210px] md:h-[220px] lg:h-[250px]",
   sliderText:
     "h-[auto] text-[14px] md:text-[16px] lg:text-[20px] xl:text-[22px] font-semibold text-[#D0DFFF] px-[20px] py-[20px]",
   sliderImg: "max-w-[auto]",
@@ -26,9 +26,9 @@ const styles = {
     "grid grid-cols-[1fr] lg:grid-cols-[1fr_1fr] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start",
   informationText: "max-w-[500px] md:max-w-[1000px]",
   informationImg:
-    "flex relative max-w-[100%] md:m-auto lg:max-w-[100%]  drop-shadow-[10px_5px_10px_rgba(0,0,0,0.5)] rounded-[10%]",
+    "flex relative max-w-[100%] md:m-auto lg:max-w-[100%]  shadow-[10px_5px_10px_rgba(0,0,0,0.5)] rounded-[10%]",
   informationChainPeople:
-    "absolute right-4 top-[140px] md:top-56 md:right-32 w-[270px] lg:right-12 xl:w-[auto] h-[auto] md:w-[400px] drop-shadow-[10px_5px_10px_rgba(0,0,0,0.5)]",
+    "absolute right-4 top-[140px] md:top-56 md:right-32 w-[270px] lg:right-12 xl:w-[auto] h-[auto] md:w-[400px]",
 
   //aboutSection
   aboutDiv: "",
