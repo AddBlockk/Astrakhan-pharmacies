@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <div className="flex justify-center mt-[100px] mb-[20px] gap-9 items-center">
+    <div className="grid grid-cols-1 md:grid-cols-3 mt-[100px] mb-[20px] gap-9 items-center ">
       <motion.div className="w-[100%]">
         <p className="text-[16px] text-[#D0DFFF] leading-8 text-justify">
           О возможных противопоказаниях проконсультируйтесь с нашими
@@ -13,7 +13,7 @@ export default function Footer() {
         </p>
       </motion.div>
       <motion.div>
-        <div className="bg-[#161B22] py-[24px] px-[24px] rounded-[50px] text-center w-[250px] hover: dropShadow-2">
+        <div className="bg-[#161B22] py-[24px] px-[24px] rounded-[50px] text-center w-[250px] hover: dropShadow-2 m-auto">
           <p className="text-[20px] font-bold">
             Консультации по всем вопросам (8512) 34-38-21
           </p>

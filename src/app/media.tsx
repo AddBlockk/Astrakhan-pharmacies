@@ -16,7 +16,7 @@ const styles = {
   slider:
     "shadow-md mb-5 max-xl:w-full m-auto justify-center overflow-hidden xl:w-[1180px] max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1180px]",
   sliderContainer:
-    "bg-[#161B22] rounded-2xl flex flex-col max-w-[150px] h-[210px] md:h-[220px] lg:h-[250px]",
+    "bg-[#161B22] rounded-2xl flex flex-col max-w-[200px] md:max-w-[250px] lg:max-w-[300px] h-[240px] md:h-[290px] lg:h-[340px]",
   sliderText:
     "h-[auto] text-[14px] md:text-[16px] lg:text-[20px] xl:text-[22px] font-semibold text-[#D0DFFF] px-[20px] py-[20px]",
   sliderImg: "max-w-[auto]",

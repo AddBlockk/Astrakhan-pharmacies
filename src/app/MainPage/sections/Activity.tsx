@@ -13,7 +13,6 @@ export default function Activity() {
         </h1>
       </motion.div>
       <Slider />
-      <motion.div className="flex mt-[70px] overflow-hidden w-full gap-5"></motion.div>
     </div>
   );
 }

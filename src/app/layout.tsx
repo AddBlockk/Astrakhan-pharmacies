@@ -26,7 +26,7 @@ export default function RootLayout({
           <div className="gradient-01 z-0" />
           <Header />
           <main /*className=flex flex-[1_1_auto]*/>{children}</main>
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </body>
     </html>
