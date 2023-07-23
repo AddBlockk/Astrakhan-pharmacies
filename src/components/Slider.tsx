@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import Link from "next/link";
 import imagesApi from "@/api/images.json";
+import styles from "@/app/media";
 import {
   motion,
   useMotionValue,
@@ -63,7 +64,7 @@ export default function Slider() {
   }, []);
 
   return (
-    <div className="xl:w-[1180px] shadow-md mb-5 max-xl:w-full m-auto justify-center overflow-hidden">
+    <div className={styles.slider}>
       <motion.div className="flex gap-4 py-5 w-full justify-center">
         <motion.div
           style={{ x }}
@@ -74,11 +75,9 @@ export default function Slider() {
           {images.map((value, index) => {
             return (
               <Link href="" key={index}>
-                <div className="bg-[#161B22] rounded-2xl flex flex-col max-w-[372px] dropShadow-3">
-                  <img src={value.url} alt="" />
-                  <h2 className="h-[auto] text-[22px] font-semibold text-[#D0DFFF] px-[20px] py-[20px]">
-                    {value.text}
-                  </h2>
+                <div className={styles.sliderContainer}>
+                  <img src={value.url} alt="" className={styles.sliderImg} />
+                  <h2 className={styles.sliderText}>{value.text}</h2>
                   <p></p>
                 </div>
               </Link>

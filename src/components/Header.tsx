@@ -1,5 +1,6 @@
 "use client";
 
+import styles from "@/app/media";
 import { headerVariants } from "@/app/utils/motion";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -9,13 +10,13 @@ export default function Header() {
     <motion.div
       variants={headerVariants}
       initial="hidden"
-      className="mt-[30px] mb-[90px] flex justify-between items-center"
+      className={styles.header}
       whileInView="show"
     >
       <Link href="/">
         <motion.img src="/images/logo.png"></motion.img>
       </Link>
-      <motion.ul className="flex text-white font-semibold gap-16 text-[20px]">
+      <motion.ul className={styles.headerNav}>
         <li>
           <Link href="/">Главная</Link>
         </li>

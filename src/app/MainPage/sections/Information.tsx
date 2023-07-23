@@ -2,44 +2,49 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { informationImg, informationText } from "@/app/utils/motion";
+import { informationImage, informationText } from "@/app/utils/motion";
+import styles from "@/app/media";
 export default function Information() {
   return (
-    <div className="grid grid-cols-[1fr_1fr] gap-9">
+    <div className={styles.informationDiv}>
       <motion.div
-        className="flex flex-col relative"
         variants={informationText}
         initial="hidden"
         whileInView="show"
+        viewport={{ once: true }}
       >
-        <h1 className="uppercase text-6xl font-bold">Астраханские аптеки</h1>
-        <h3 className="text-2xl font-bold my-[20px]">
+        <h1 className={styles.h1}>Астраханские аптеки</h1>
+        <h3 className={styles.h2}>
           Колл-центр для обращения граждан:
           <br />
           <a href={`tel:8-800-300-37-23`}> 8-800-300-37-23</a>
         </h3>
-        <h6 className="text-base font-normal text-[#A3B3BC] max-w-[500px]">
+        <p className={styles.default}>
           ГОСУДАРСТВЕННОЕ АВТОНОМНОЕ УЧРЕЖДЕНИЕ АСТРАХАНСКОЙ ОБЛАСТИ г.
           Астрахань ул. Рождественского, 1 лит А
-        </h6>
-        <h6 className="text-base font-normal text-[#A3B3BC] my-[20px]">
+        </p>
+        <p className={`${styles.default} text-white pt-[20px]`}>
           ПН-ПТ 08:30 - 17:00
           <br />
           <a href={`tel:8-851-234-38-21`}> (8512) 34-38-21</a>
-        </h6>
+        </p>
       </motion.div>
       <motion.div
-        className="flex flex-col relative"
-        variants={informationImg}
+        variants={informationImage}
         initial="hidden"
         whileInView="show"
+        viewport={{ once: true }}
       >
-        <motion.img src="/images/doctor.png" className="w-[100%]" />
+        <img
+          src="/images/doctor.png"
+          alt="doctor"
+          className={styles.informationImg}
+        />
         <Image
           src="/images/chain-people.svg"
           alt="chain-people"
-          className="absolute top-60 right-4"
-          width={500}
+          className={styles.informationChainPeople}
+          width={300}
           height={260}
         />
       </motion.div>

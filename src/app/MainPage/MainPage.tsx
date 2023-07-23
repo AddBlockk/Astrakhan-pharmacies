@@ -10,11 +10,11 @@ export default function MainPage() {
   return (
     <div>
       <Information />
-      <AboutSection />
+      {/* <AboutSection />
       <History />
       <Appeal />
       <Activity />
-      <Competencies />
+      <Competencies /> */}
     </div>
   );
 }
