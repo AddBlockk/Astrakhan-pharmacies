@@ -10,7 +10,6 @@
   filter: blur(1000px);
   background: repeating-linear-gradient(45deg, #4ca5ff, #b673f8);
   background-size: 400% 100%;
-  background-repeat: repeat-x;
   z-index: -10;
   top: -20%;
   animation: AnimationName 5s linear infinite;
