@@ -9,7 +9,7 @@ import Information from "./sections/Information";
 import { motion } from "framer-motion";
 export default function MainPage() {
   return (
-    <div className="mx-[30px] md:mx-[0px]">
+    <div>
       <Information />
       <AboutSection />
       <History />

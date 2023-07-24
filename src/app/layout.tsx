@@ -25,7 +25,7 @@ export default function RootLayout({
         <div className="min-h-[100vh] flex flex-col">
           <div className="z-0" />
           <Header />
-          <main /*className=flex flex-[1_1_auto]*/>{children}</main>
+          <main>{children}</main>
           <Footer />
         </div>
       </body>

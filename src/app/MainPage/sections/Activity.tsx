@@ -1,14 +1,13 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
-import { transform } from "framer-motion";
 import Slider from "@/components/Slider";
+import styles from "@/app/media";
 export default function Activity() {
   return (
-    <div className="mt-[120px] place-items-center opacity-100">
+    <div className={styles.sectionStyle}>
       <motion.div>
-        <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8] text-[48px] text-center font-extrabold mb-[60px]">
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8] text-[36px] md:text-[44px] text-center font-extrabold mb-[0px]">
           Виды деятельности
         </h1>
       </motion.div>

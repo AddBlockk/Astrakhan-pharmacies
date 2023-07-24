@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 mt-[100px] mb-[20px] gap-9 items-center ">
+    <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr_4fr] mt-[100px] mb-[20px] gap-9 ">
       <motion.div className="w-[100%]">
         <p className="text-[16px] text-[#D0DFFF] leading-8 text-justify">
           О возможных противопоказаниях проконсультируйтесь с нашими

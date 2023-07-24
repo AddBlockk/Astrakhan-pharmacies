@@ -6,6 +6,7 @@ const styles = {
   bigHeading: "text-[44px] font-extrabold mb-[20px]",
   colorHeading:
     "text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8]",
+  sectionStyle: "mt-[60px]",
   //header components
   header:
     "mt-[30px] mb-[20px] block justify-between items-center lg:flex lg:mb-[90px] md:items-center md:mb-[20px] mx-[10px]",
@@ -14,12 +15,13 @@ const styles = {
   headerText: "dropShadow-1",
   //activity section
   slider:
-    "mb-5 max-xl:w-full m-auto justify-center overflow-hidden xl:w-[1180px] max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1180px]",
+    "mb-5 max-xl:w-full m-auto z-30 justify-center overflow-hidden  max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px]",
   sliderContainer:
-    "bg-[#16181d] rounded-2xl flex flex-col max-w-[200px] md:max-w-[250px] lg:max-w-[300px] h-[240px] md:h-[290px] lg:h-[340px] dropShadow-3",
+    "bg-[#16181d] rounded-2xl hover:z-30 flex flex-col overflow-hidden max-w-[200px] md:max-w-[250px] lg:max-w-[300px] h-[240px] md:h-[290px] lg:h-[340px] dropShadow-3",
+  sliderImgContainer: "hover:z-10 overflow-hidden",
   sliderText:
-    "h-[auto] text-[14px] md:text-[16px] lg:text-[20px] xl:text-[22px] font-semibold text-[#e5e7eb] px-[20px] py-[20px]",
-  sliderImg: "max-w-[auto]",
+    "h-[auto] text-[14px] md:text-[16px] lg:text-[20px] overflow-hidden xl:text-[22px] font-semibold text-[#e5e7eb] px-[20px] py-[20px]",
+  sliderImg: "hover:scale-[120%] overflow-hidden ease-in duration-300",
 
   //information section
   informationDiv:

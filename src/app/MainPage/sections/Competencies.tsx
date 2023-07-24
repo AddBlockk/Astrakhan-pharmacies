@@ -1,17 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-
+import styles from "@/app/media";
 export default function Competencies() {
   return (
-    <div className="mt-[40px] m-[0_auto]">
-      <motion.div className="mt-[40px]">
-        <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8] text-[48px] text-center font-extrabold mb-[20px]">
+    <div className={styles.sectionStyle}>
+      <motion.div>
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8] text-[36px] md:text-[44px] text-center font-extrabold mb-[20px]">
           Ключевые компетентности
         </h1>
       </motion.div>
       <div className="grid md:grid-cols-[1fr] xl:grid-cols-[1fr_1fr] gap-7 mt-[40px]">
-        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] dropShadow-1 :max-w-[320px]">
+        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] dropShadow-1">
           <img
             src="/images/icon-assortment.png"
             alt="assortmen"
