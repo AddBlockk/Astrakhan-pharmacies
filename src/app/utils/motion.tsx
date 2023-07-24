@@ -79,3 +79,75 @@ export const aboutTitle = {
     },
   },
 };
+
+export const historySection = {
+  hidden: {
+    opacity: 0,
+    y: 40,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+    },
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+    },
+  },
+};
+
+export const appealSection = {
+  hidden: {
+    opacity: 0,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+    },
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+    },
+  },
+};
+
+export const competenciesSection = {
+  hidden: {
+    opacity: 0,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+    },
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+    },
+  },
+};
+
+export const footerVariants = {
+  hidden: {
+    opacity: 0,
+    y: -20,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+    },
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1.5,
+      type: "spring",
+    },
+  },
+};

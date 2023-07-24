@@ -1,12 +1,17 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { HistoryTitle } from "@/components/Titles";
+import { historySection } from "@/app/utils/motion";
 
 export default function History() {
   return (
-    <motion.div className="text-center relative mt-[0px] flex justify-center mx-[10px]">
+    <motion.div
+      className="text-center relative mt-[0px] flex justify-center mx-[10px]"
+      variants={historySection}
+      initial="hidden"
+      whileInView="show"
+    >
       <img
         src="/images/history_frame.svg"
         className="m-[0_auto] pt-[10px] absolute z-[-10] md:w-[400px] lg:w-[1100px]"

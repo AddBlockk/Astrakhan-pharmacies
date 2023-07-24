@@ -1,11 +1,17 @@
 "use client";
 
 import styles from "@/app/media";
+import { appealSection } from "@/app/utils/motion";
 import { motion } from "framer-motion";
 
 export default function Appeal() {
   return (
-    <div className="mt-[40px] md:mt-[40px] lg:mt-[140px] max-w-[960px] m-auto">
+    <motion.div
+      className="mt-[40px] md:mt-[40px] lg:mt-[140px] max-w-[960px] m-auto"
+      variants={appealSection}
+      initial="hidden"
+      whileInView="show"
+    >
       <motion.div>
         <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8] text-[36px] md:text-[44px] text-center font-extrabold">
           Обращение граждан
@@ -69,6 +75,6 @@ export default function Appeal() {
           </form>
         </motion.div>
       </motion.div>
-    </div>
+    </motion.div>
   );
 }

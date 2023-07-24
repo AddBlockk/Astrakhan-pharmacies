@@ -11,7 +11,6 @@ export default function Information() {
         variants={informationText}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true }}
       >
         <h1 className={styles.h1}>Астраханские аптеки</h1>
         <h3 className={styles.h2}>

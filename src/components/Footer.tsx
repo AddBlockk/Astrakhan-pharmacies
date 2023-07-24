@@ -1,10 +1,16 @@
 "use client";
 
+import { competenciesSection, footerVariants } from "@/app/utils/motion";
 import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr_4fr] mt-[100px] mb-[20px] gap-9 ">
+    <motion.div
+      className="grid grid-cols-1 md:grid-cols-[4fr_1fr_4fr] mt-[100px] mb-[20px] gap-9"
+      variants={footerVariants}
+      initial="hidden"
+      whileInView="show"
+    >
       <motion.div className="w-[100%]">
         <p className="text-[16px] text-[#D0DFFF] leading-8 text-justify">
           О возможных противопоказаниях проконсультируйтесь с нашими
@@ -26,6 +32,6 @@ export default function Footer() {
           Астраханской области «Астраханские аптеки».
         </p>
       </motion.div>
-    </div>
+    </motion.div>
   );
 }
