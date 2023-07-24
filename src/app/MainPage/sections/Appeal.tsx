@@ -18,7 +18,7 @@ export default function Appeal() {
             <div>
               <input
                 type="text"
-                className="bg-[#212933] w-[412px] h-[60px] rounded-[30px] indent-7 text-[20px] mt-[30px] focus:outline-none focus:ring-2 ring-[#2190FF]"
+                className="bg-[#16181d] w-[412px]  h-[60px] rounded-[30px] indent-7 text-[20px] mt-[30px] focus:outline-none focus:ring-2 ring-[#99a1b3]"
                 placeholder="Ваше имя"
                 required
               />
@@ -26,7 +26,7 @@ export default function Appeal() {
             <div>
               <input
                 type="email"
-                className="bg-[#212933] w-[412px] h-[60px] rounded-[30px] indent-7 text-[20px] mt-[30px] focus:outline-none focus:ring-2 ring-[#2190FF]"
+                className="bg-[#16181d] w-[412px] h-[60px] rounded-[30px] indent-7 text-[20px] mt-[30px] focus:outline-none focus:ring-2 ring-[#99a1b3]"
                 placeholder="Ваш Email"
                 required
               />
@@ -34,7 +34,7 @@ export default function Appeal() {
             <div>
               <input
                 type="tel"
-                className="bg-[#212933] w-[412px] h-[60px] rounded-[30px] indent-7 text-[20px] mt-[30px] focus:outline-none focus:ring-2 ring-[#2190FF]"
+                className="bg-[#16181d] w-[412px] h-[60px] rounded-[30px] indent-7 text-[20px] mt-[30px] focus:outline-none focus:ring-2 ring-[#99a1b3]"
                 placeholder="Ваш Телефон"
                 required
               />
@@ -42,7 +42,7 @@ export default function Appeal() {
             <div>
               <input
                 type="text"
-                className="bg-[#212933] w-[412px] h-[60px] rounded-[30px] indent-7 text-[20px] mt-[30px] focus:outline-none focus:ring-2 ring-[#2190FF]"
+                className="bg-[#16181d] w-[412px] h-[60px] rounded-[30px] indent-7 text-[20px] mt-[30px] focus:outline-none focus:ring-2 ring-[#99a1b3]"
                 placeholder="Тема обращения"
                 required
               />
@@ -54,13 +54,13 @@ export default function Appeal() {
             <div>
               <textarea
                 name="your-message"
-                className="bg-[#212933] w-[500px] h-[240px] rounded-[30px] px-[28px] pt-[10px] text-[20px] pb-[190px] focus:outline-none focus:ring-2 ring-[#2190FF] resize-none scrollbar-none"
+                className="bg-[#16181d] w-[500px] h-[240px] rounded-[30px] px-[28px] pt-[10px] text-[20px] pb-[190px] focus:outline-none focus:ring-2 ring-[#99a1b3] resize-none scrollbar-none"
                 placeholder="Обращение"
                 required
               />
             </div>
             <button
-              className="text-white bg-[#2190FF] w-[180px] h-[60px] rounded-[30px] text-[20px] mt-[30px] transition-all duration-300 hover:bg-[#B673F8] active:text-[22px]"
+              className="text-white bg-[#087ea4] w-[180px] h-[60px] rounded-[30px] text-[20px] mt-[30px] transition-all duration-300 hover:bg-[#B673F8] active:text-[22px]"
               type="submit"
             >
               Отправить

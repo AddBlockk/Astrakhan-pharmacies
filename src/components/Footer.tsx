@@ -13,8 +13,8 @@ export default function Footer() {
         </p>
       </motion.div>
       <motion.div>
-        <div className="bg-[#161B22] py-[24px] px-[24px] rounded-[50px] text-center w-[250px] hover: dropShadow-2 m-auto">
-          <p className="text-[20px] font-bold">
+        <div className="bg-[#16181d] py-[24px] px-[24px] rounded-[50px] text-center w-[250px] hover: dropShadow-2 m-auto">
+          <p className="text-[20px] font-bold text-[#99a1b3]">
             Консультации по всем вопросам (8512) 34-38-21
           </p>
         </div>

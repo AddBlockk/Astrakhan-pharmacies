@@ -20,16 +20,16 @@ export default function Header() {
         ></motion.img>
       </Link>
       <motion.ul className={styles.headerNav}>
-        <li>
+        <li className={styles.headerText}>
           <Link href="/">Главная</Link>
         </li>
-        <li>
+        <li className={styles.headerText}>
           <Link href="/About">Об учреждении</Link>
         </li>
-        <li>
+        <li className={styles.headerText}>
           <Link href="/News">Новости</Link>
         </li>
-        <li>
+        <li className={styles.headerText}>
           <Link href="/Patient">Пациентам</Link>
         </li>
       </motion.ul>

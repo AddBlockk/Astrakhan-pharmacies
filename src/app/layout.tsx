@@ -20,10 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`open_Sans.className bg-black max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] text-white h-[100%] scrollbar scrollbar-none m-[0_auto]`}
+        className={`open_Sans.className bg-[#23272F] max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] text-white h-[100%] scrollbar scrollbar-none m-[0_auto]`}
       >
         <div className="min-h-[100vh] flex flex-col">
-          <div className="gradient-01 z-0" />
+          <div className="z-0" />
           <Header />
           <main /*className=flex flex-[1_1_auto]*/>{children}</main>
           <Footer />

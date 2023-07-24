@@ -11,14 +11,14 @@ const styles = {
     "mt-[30px] mb-[20px] block justify-between items-center lg:flex lg:mb-[90px] md:items-center md:mb-[20px] mx-[10px]",
   headerNav:
     "block text-white font-semibold gap-16 text-[16px] mt-[20px] md:text-[18px] lg:text-[20px] md:flex md:justify-center lg:mt-[0px]",
-
+  headerText: "dropShadow-1",
   //activity section
   slider:
-    "shadow-md mb-5 max-xl:w-full m-auto justify-center overflow-hidden xl:w-[1180px] max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1180px]",
+    "mb-5 max-xl:w-full m-auto justify-center overflow-hidden xl:w-[1180px] max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1180px]",
   sliderContainer:
-    "bg-[#161B22] rounded-2xl flex flex-col max-w-[200px] md:max-w-[250px] lg:max-w-[300px] h-[240px] md:h-[290px] lg:h-[340px]",
+    "bg-[#16181d] rounded-2xl flex flex-col max-w-[200px] md:max-w-[250px] lg:max-w-[300px] h-[240px] md:h-[290px] lg:h-[340px] dropShadow-3",
   sliderText:
-    "h-[auto] text-[14px] md:text-[16px] lg:text-[20px] xl:text-[22px] font-semibold text-[#D0DFFF] px-[20px] py-[20px]",
+    "h-[auto] text-[14px] md:text-[16px] lg:text-[20px] xl:text-[22px] font-semibold text-[#e5e7eb] px-[20px] py-[20px]",
   sliderImg: "max-w-[auto]",
 
   //information section
@@ -26,7 +26,7 @@ const styles = {
     "grid grid-cols-[1fr] lg:grid-cols-[1fr_1fr] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start",
   informationText: "max-w-[500px] md:max-w-[1000px]",
   informationImg:
-    "flex relative max-w-[100%] md:m-auto lg:max-w-[100%]  shadow-[10px_5px_10px_rgba(0,0,0,0.5)] rounded-[10%]",
+    "flex relative max-w-[100%] md:m-auto lg:max-w-[100%]   rounded-[10%] dropShadow-1",
   informationChainPeople:
     "absolute right-4 top-[140px] md:top-56 md:right-32 w-[270px] lg:right-12 xl:w-[auto] h-[auto] md:w-[400px]",
 
