@@ -8,9 +8,9 @@ export default function Information() {
   return (
     <div className={styles.informationDiv}>
       <motion.div
-        variants={informationText}
-        initial="hidden"
-        whileInView="show"
+      // variants={informationText}
+      // initial="hidden"
+      // whileInView="show"
       >
         <h1 className={styles.h1}>Астраханские аптеки</h1>
         <h3 className={styles.h2}>
@@ -31,10 +31,11 @@ export default function Information() {
         </p>
       </motion.div>
       <motion.div
-        variants={informationImage}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true }}
+        // variants={informationImage}
+        // initial="hidden"
+        // whileInView="show"
+        // viewport={{ once: true }}
+        className="relative"
       >
         <img
           src="/images/doctor.png"

@@ -58,11 +58,9 @@
           z-index: 4;
         }
         .outlineMenu {
-          display: block;
-          position: absolute;
+          display: flex;
           font-size: 32px;
           cursor: pointer;
-          right: 0;
           z-index: 15;
         }
         .header__menu {
@@ -90,14 +88,5 @@
         }
       }
     }
-  }
-}
-
-@keyframes outlineMenu {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
   }
 }

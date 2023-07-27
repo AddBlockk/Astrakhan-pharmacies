@@ -11,7 +11,7 @@ import { animate } from "framer-motion/dom";
 export default function Header() {
   const [nav, setNav] = useState(false);
   return (
-    <motion.div className="wrapper">
+    <div className="wrapper">
       <div className={variables.header}>
         <div className={variables.container}>
           <div className={variables.header__body}>
@@ -48,6 +48,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
