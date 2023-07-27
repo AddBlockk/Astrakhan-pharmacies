@@ -8,7 +8,6 @@ export const headerVariants = {
     y: 0,
     transition: {
       duration: 1,
-      type: "spring",
     },
   },
 };
@@ -23,7 +22,6 @@ export const informationText = {
     x: "0%",
     transition: {
       duration: 1,
-      type: "spring",
     },
   },
 };
@@ -38,7 +36,6 @@ export const informationImage = {
     x: "0%",
     transition: {
       duration: 1,
-      type: "spring",
     },
   },
 };
@@ -47,16 +44,13 @@ export const arrow = {
   hidden: {
     opacity: 0,
     y: -40,
-    transition: {
-      type: "spring",
-    },
+    transition: {},
   },
   show: {
     opacity: 1,
     y: 0,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
 };
@@ -67,7 +61,6 @@ export const aboutTitle = {
     y: -40,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
   show: {
@@ -75,7 +68,6 @@ export const aboutTitle = {
     y: 0,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
 };
@@ -86,7 +78,6 @@ export const historySection = {
     y: 40,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
   show: {
@@ -94,7 +85,6 @@ export const historySection = {
     y: 0,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
 };
@@ -104,14 +94,12 @@ export const appealSection = {
     opacity: 0,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
   show: {
     opacity: 1,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
 };
@@ -121,14 +109,12 @@ export const competenciesSection = {
     opacity: 0,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
   show: {
     opacity: 1,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
 };
@@ -139,7 +125,6 @@ export const footerVariants = {
     y: -20,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
   show: {
@@ -147,7 +132,6 @@ export const footerVariants = {
     y: 0,
     transition: {
       duration: 1.5,
-      type: "spring",
     },
   },
 };

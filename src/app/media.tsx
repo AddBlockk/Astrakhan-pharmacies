@@ -8,6 +8,7 @@ const styles = {
     "text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8]",
   sectionStyle: "mt-[60px]",
   //header components
+
   active: "left-0",
   headerText: "dropShadow-1 ",
   outlineMenu: "flex lg:hidden text-[32px] cursor-pointer z-100",

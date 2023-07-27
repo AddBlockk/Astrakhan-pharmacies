@@ -24,7 +24,7 @@
       .header__menu {
         top: 0;
         left: 0;
-        z-index: 3;
+        z-index: 10;
         .header__list {
           display: flex;
           .header__text {
@@ -63,7 +63,7 @@
           font-size: 32px;
           cursor: pointer;
           right: 0;
-          z-index: 5;
+          z-index: 15;
         }
         .header__menu {
           position: fixed;
