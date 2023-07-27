@@ -6,39 +6,47 @@ import { headerVariants } from "@/app/utils/motion";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose, AiFillPhone } from "react-icons/ai";
+import variables from "../app/variables.module.scss";
+import { animate } from "framer-motion/dom";
 export default function Header() {
   const [nav, setNav] = useState(false);
   return (
-    <motion.div
-      // variants={headerVariants}
-      // initial="hidden"
-      className={styles.header}
-      // whileInView="show"
-    >
-      <Link href="/">
-        <motion.img
-          src="/images/logo.png"
-          className="lg:m-0 w-[200px] md:w-[260px] md:m-auto"
-        ></motion.img>
-      </Link>
-      <motion.ul
-        className={nav ? `${"headerNav"} ${"active"}` : `${"headerNav"}`}
-      >
-        <li className={styles.headerText}>
-          <Link href="/">Главная</Link>
-        </li>
-        <li className={styles.headerText}>
-          <Link href="/About">Об учреждении</Link>
-        </li>
-        <li className={styles.headerText}>
-          <Link href="/News">Новости</Link>
-        </li>
-        <li className={styles.headerText}>
-          <Link href="/Patient">Пациентам</Link>
-        </li>
-      </motion.ul>
-      <div onClick={() => setNav(!nav)} className="outlineMenu">
-        {nav ? <AiOutlineClose /> : <AiOutlineMenu />}
+    <motion.div className="wrapper">
+      <div className={variables.header}>
+        <div className={variables.container}>
+          <div className={variables.header__body}>
+            <Link href="/">
+              <img src="/images/logo.png" className={variables.header__logo} />
+            </Link>
+            <div onClick={() => setNav(!nav)} className={variables.outlineMenu}>
+              {nav ? <AiOutlineClose /> : <AiOutlineMenu />}
+            </div>
+            <nav className={`${variables.header__menu}`}>
+              <motion.div
+                className={
+                  nav
+                    ? `flex justify-center ease-in-out duration-300 ${variables.header__menu} ${variables.active}`
+                    : `flex justify-center ease-in-out duration-300 ${variables.header__menu}`
+                }
+              >
+                <ul className={variables.header__list}>
+                  <li className={variables.header__text}>
+                    <Link href="/">Главная</Link>
+                  </li>
+                  <li className={variables.header__text}>
+                    <Link href="/About">Об учреждении</Link>
+                  </li>
+                  <li className={variables.header__text}>
+                    <Link href="/News">Новости</Link>
+                  </li>
+                  <li className={variables.header__text}>
+                    <Link href="/Patient">Пациентам</Link>
+                  </li>
+                </ul>
+              </motion.div>
+            </nav>
+          </div>
+        </div>
       </div>
     </motion.div>
   );

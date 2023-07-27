@@ -8,10 +8,6 @@ const styles = {
     "text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8]",
   sectionStyle: "mt-[60px]",
   //header components
-  header:
-    "mt-[30px] mb-[40px] flex z-0 justify-between items-center md:flex lg:mb-[90px] md:items-center mx-[10px] md:mx-[60px] lg:mx-[10px]",
-  headerNav:
-    "text-white font-semibold flex flex-col items-center fixed ease-in bg-red-500 gap-16 text-[16px] mt-[20px] md:text-[18px] lg:text-[20px] lg:flex md:justify-center lg:mt-[0px] left-0",
   active: "left-0",
   headerText: "dropShadow-1 ",
   outlineMenu: "flex lg:hidden text-[32px] cursor-pointer z-100",

@@ -23,7 +23,9 @@ export default function RootLayout({
         className={`open_Sans.className bg-[#23272F] max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] h-[100%] text-white scrollbar scrollbar-none m-[0_auto]`}
       >
         <div className="min-h-[100%] flex flex-col">
-          <Header />
+          <div className="mb-[100px]">
+            <Header />
+          </div>
           <main className="grow">{children}</main>
           <Footer />
         </div>

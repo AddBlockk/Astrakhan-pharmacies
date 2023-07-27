@@ -33,14 +33,6 @@
   }
 }
 
-.dropShadow-1 {
-  transition: all 0.3s ease;
-}
-
-.dropShadow-1:hover {
-  filter: drop-shadow(9px 9px 5px #16181d);
-}
-
 .dropShadow-2 {
   transition: all 0.3s ease;
 }
@@ -55,45 +47,4 @@
 
 .dropShadow-3:hover {
   filter: drop-shadow(0px 4px 5px #16181d);
-}
-
-.headerNav {
-  display: flex;
-  font-weight: 600;
-  font-size: 20px;
-  gap: 32px;
-}
-
-.outlineMenu {
-  display: none;
-}
-
-@media (max-width: 1024px) {
-  .headerNav {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: fixed;
-    justify-content: center;
-    left: -100%;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #121418;
-    z-index: 10;
-    transition: left 1s;
-  }
-  .outlineMenu {
-    display: flex;
-    font-size: 32px;
-    cursor: pointer;
-    z-index: 100;
-    transition: 3s;
-  }
-}
-
-.active {
-  left: 0;
 }
