@@ -18,14 +18,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-[100%]">
       <body
-        className={`open_Sans.className bg-[#23272F] max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] text-white h-[100%] scrollbar scrollbar-none m-[0_auto]`}
+        className={`open_Sans.className bg-[#23272F] max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] h-[100%] text-white scrollbar scrollbar-none m-[0_auto]`}
       >
-        <div className="min-h-[100vh] flex flex-col">
-          <div className="z-0" />
+        <div className="min-h-[100%] flex flex-col">
           <Header />
-          <main>{children}</main>
+          <main className="grow">{children}</main>
           <Footer />
         </div>
       </body>

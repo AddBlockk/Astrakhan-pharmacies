@@ -9,16 +9,18 @@ const styles = {
   sectionStyle: "mt-[60px]",
   //header components
   header:
-    "mt-[30px] mb-[20px] block justify-between items-center lg:flex lg:mb-[90px] md:items-center md:mb-[20px] mx-[10px]",
+    "mt-[30px] mb-[40px] flex z-0 justify-between items-center md:flex lg:mb-[90px] md:items-center mx-[10px] md:mx-[60px] lg:mx-[10px]",
   headerNav:
-    "block text-white font-semibold gap-16 text-[16px] mt-[20px] md:text-[18px] lg:text-[20px] md:flex md:justify-center lg:mt-[0px]",
-  headerText: "dropShadow-1",
+    "text-white font-semibold flex flex-col items-center fixed ease-in bg-red-500 gap-16 text-[16px] mt-[20px] md:text-[18px] lg:text-[20px] lg:flex md:justify-center lg:mt-[0px] left-0",
+  active: "left-0",
+  headerText: "dropShadow-1 ",
+  outlineMenu: "flex lg:hidden text-[32px] cursor-pointer z-100",
   //activity section
   slider:
-    "mb-5 max-xl:w-full m-auto z-30 justify-center overflow-hidden  max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px]",
+    "mb-5 max-xl:w-full m-auto justify-center overflow-hidden  max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] bg-gradient-to-r from-[#23272F]/100 via-white/0 via-50% to-[#23272F]",
   sliderContainer:
-    "bg-[#16181d] rounded-2xl hover:z-30 flex flex-col overflow-hidden max-w-[200px] md:max-w-[250px] lg:max-w-[300px] h-[240px] md:h-[290px] lg:h-[340px] dropShadow-3",
-  sliderImgContainer: "hover:z-10 overflow-hidden",
+    "bg-[#16181d] rounded-2xl flex flex-col overflow-hidden max-w-[200px] md:max-w-[250px] lg:max-w-[300px] h-[240px] md:h-[290px] lg:h-[340px] dropShadow-3",
+  sliderImgContainer: "overflow-hidden",
   sliderText:
     "h-[auto] text-[14px] md:text-[16px] lg:text-[20px] overflow-hidden xl:text-[22px] font-semibold text-[#e5e7eb] px-[20px] py-[20px]",
   sliderImg: "hover:scale-[120%] overflow-hidden ease-in duration-300",
@@ -28,7 +30,7 @@ const styles = {
     "grid grid-cols-[1fr] lg:grid-cols-[1fr_1fr] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start",
   informationText: "max-w-[500px] md:max-w-[1000px]",
   informationImg:
-    "flex relative max-w-[100%] md:m-auto lg:max-w-[100%]   rounded-[10%] dropShadow-1",
+    "flex max-w-[100%] md:m-auto lg:max-w-[100%] rounded-[10%] dropShadow-1",
   informationChainPeople:
     "absolute right-4 top-[140px] md:top-56 md:right-32 w-[270px] lg:right-12 xl:w-[auto] h-[auto] md:w-[400px]",
 

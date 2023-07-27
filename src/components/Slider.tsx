@@ -76,10 +76,16 @@ export default function Slider() {
             return (
               <Link href="" key={index}>
                 <div className={styles.sliderContainer}>
-                  <div className={styles.sliderImgContainer}>
-                    <img src={value.url} alt="" className={styles.sliderImg} />
+                  <div className={styles.sliderContainer}>
+                    <div className={styles.sliderImgContainer}>
+                      <img
+                        src={value.url}
+                        alt=""
+                        className={styles.sliderImg}
+                      />
+                    </div>
+                    <h2 className={styles.sliderText}>{value.text}</h2>
                   </div>
-                  <h2 className={styles.sliderText}>{value.text}</h2>
                 </div>
               </Link>
             );
