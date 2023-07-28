@@ -24,12 +24,12 @@ const styles = {
 
   //information section
   informationDiv:
-    "grid grid-cols-[1fr] lg:grid-cols-[1fr_1fr] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start",
+    "grid grid-cols-[1fr] flex m-auto lg:grid-cols-[1fr_1fr] gap-[1%] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start",
   informationText: "max-w-[500px] md:max-w-[1000px]",
   informationImg:
-    "flex max-w-[100%] md:m-auto absolut lg:max-w-[100%] rounded-[10%] dropShadow-1",
+    "flex max-w-[100%] md:m-auto lg:max-w-[100%] rounded-[10%] dropShadow-1",
   informationChainPeople:
-    "absolute right-4 absolut top-[100px] md:top-56 md:right-32 w-[270px] lg:right-12 xl:w-[auto] h-[auto] md:w-[400px]",
+    "absolute right-[10%] top-[100px] md:top-56 md:right-32 lg:right-12 xl:w-[auto] h-[auto] md:w-[400px]",
 
   //aboutSection
   aboutDiv: "",

@@ -4,13 +4,16 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { informationImage, informationText } from "@/app/utils/motion";
 import styles from "@/app/media";
+import variables from "@/app/variables.module.scss";
+
 export default function Information() {
   return (
     <div className={styles.informationDiv}>
       <motion.div
-      // variants={informationText}
-      // initial="hidden"
-      // whileInView="show"
+        // variants={informationText}
+        // initial="hidden"
+        // whileInView="show"
+        className="m-auto"
       >
         <h1 className={styles.h1}>Астраханские аптеки</h1>
         <h3 className={styles.h2}>
@@ -35,19 +38,12 @@ export default function Information() {
         // initial="hidden"
         // whileInView="show"
         // viewport={{ once: true }}
-        className="relative"
+        className="relative m-auto"
       >
         <img
           src="/images/doctor.png"
           alt="doctor"
           className={styles.informationImg}
-        />
-        <Image
-          src="/images/chain-people.svg"
-          alt="chain-people"
-          className={styles.informationChainPeople}
-          width={300}
-          height={260}
         />
       </motion.div>
     </div>

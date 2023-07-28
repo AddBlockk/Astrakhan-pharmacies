@@ -14,7 +14,7 @@ export default function History() {
     >
       <img
         src="/images/history_frame.svg"
-        className="m-[0_auto] pt-[10px] absolute z-[-10] md:w-[400px] lg:w-[1100px]"
+        className="m-[0_auto] pt-[10px] w-[300px] absolute z-[-10] md:w-[400px] lg:w-[1100px]"
         alt=""
       />
       <div className="px-[0px] pt-[20px] md:px-[150px] md:pt-[40px]">
