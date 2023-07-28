@@ -6,7 +6,7 @@ const styles = {
   bigHeading: "text-[44px] font-extrabold mb-[20px]",
   colorHeading:
     "text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8]",
-  sectionStyle: "mt-[60px]",
+  sectionStyle: "mt-[60px] px-[10px]",
   //header components
 
   active: "left-0",
@@ -14,7 +14,7 @@ const styles = {
   outlineMenu: "flex lg:hidden text-[32px] cursor-pointer z-100",
   //activity section
   slider:
-    "mb-5 max-xl:w-full m-auto justify-center overflow-hidden  max-w-[320px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] bg-gradient-to-r from-[#23272F]/100 via-white/0 via-50% to-[#23272F]",
+    "mb-5 max-xl:w-full m-auto justify-center overflow-hidden  max-w-[768px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] bg-gradient-to-r from-[#23272F]/100 via-white/0 via-50% to-[#23272F]",
   sliderContainer:
     "bg-[#16181d] rounded-2xl flex flex-col overflow-hidden max-w-[200px] md:max-w-[250px] lg:max-w-[300px] h-[240px] md:h-[290px] lg:h-[340px] dropShadow-3",
   sliderImgContainer: "overflow-hidden",

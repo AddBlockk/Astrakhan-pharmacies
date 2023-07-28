@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Appeal() {
   return (
     <motion.div
-      className="mt-[40px] md:mt-[40px] lg:mt-[140px] max-w-[960px] m-auto"
+      className="mt-[40px] md:mt-[40px] lg:mt-[140px] max-w-[960px] m-auto mx-[10px]"
       variants={appealSection}
       initial="hidden"
       whileInView="show"

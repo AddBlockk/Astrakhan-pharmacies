@@ -16,7 +16,7 @@ export default function Competencies() {
           Ключевые компетентности
         </h1>
       </motion.div>
-      <div className="grid md:grid-cols-[1fr] xl:grid-cols-[1fr_1fr] gap-7 mt-[40px]">
+      <div className="grid md:grid-cols-[1fr] xl:grid-cols-[1fr_1fr] gap-7 mt-[40px] ">
         <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] dropShadow-1">
           <img
             src="/images/icon-assortment.png"
