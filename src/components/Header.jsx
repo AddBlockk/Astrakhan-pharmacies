@@ -38,7 +38,6 @@ export default function Header() {
                 <ul
                   className={variables.header__list}
                   onClick={(list) => setNav(!listText)}
-                  className={variables.header__list}
                 >
                   <li className={variables.header__text}>
                     <Link href="/">Главная</Link>
