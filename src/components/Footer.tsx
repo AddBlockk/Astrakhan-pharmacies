@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Footer() {
   return (
     <motion.div
-      className="grid grid-cols-1 md:grid-cols-[4fr_1fr_4fr] mt-[100px] mb-[20px] gap-9"
+      className="grid grid-cols-1 md:grid-cols-[4fr_1fr_4fr] mt-[100px] mb-[20px] gap-9 px-[10px]"
       variants={footerVariants}
       initial="hidden"
       whileInView="show"
