@@ -6,7 +6,7 @@ const styles = {
   bigHeading: "text-[44px] font-extrabold mb-[20px]",
   colorHeading:
     "text-transparent bg-clip-text bg-gradient-to-br from-[#4CA5FF] to-[#B673F8]",
-  sectionStyle: "mt-[60px] px-[10px]",
+  sectionStyle: "my-[60px] px-[10px]",
   //header components
 
   active: "left-0",
@@ -24,7 +24,7 @@ const styles = {
 
   //information section
   informationDiv:
-    "grid grid-cols-[1fr] flex m-auto lg:grid-cols-[1fr_1fr] gap-[1%] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start",
+    "grid grid-cols-[1fr] p-[50px] flex m-auto lg:grid-cols-[1fr_1fr] gap-[1%] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start",
   informationText: "max-w-[500px] md:max-w-[1000px]",
   informationImg:
     "flex max-w-[100%] md:m-auto lg:max-w-[100%] rounded-[10%] dropShadow-1",

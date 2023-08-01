@@ -1,3 +1,9 @@
-export default function About() {
-  return <div>About</div>;
+import About from "@/components/About";
+
+export default function AboutTheInstitution() {
+  return (
+    <div>
+      <About />
+    </div>
+  );
 }

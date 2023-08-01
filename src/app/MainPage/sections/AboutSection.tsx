@@ -7,7 +7,7 @@ import { arrow, aboutTitle } from "@/app/utils/motion";
 import styles from "@/app/media";
 export default function AboutSection() {
   return (
-    <div className="mt-[170px] text-center mx-[10px]">
+    <div className="mt-[120px] text-center mx-[10px]">
       <motion.div variants={aboutTitle} initial="hidden" whileInView="show">
         <AboutTitle />
         <div>
