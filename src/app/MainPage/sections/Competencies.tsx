@@ -17,7 +17,7 @@ export default function Competencies() {
         </h1>
       </motion.div>
       <div className="grid md:grid-cols-[1fr] xl:grid-cols-[1fr_1fr] gap-7 mt-[40px] ">
-        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] dropShadow-1">
+        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] hover: dropShadow-2 m-auto">
           <img
             src="/images/icon-assortment.png"
             alt="assortmen"
@@ -31,7 +31,7 @@ export default function Competencies() {
             назначения, биологически активных добавок.
           </p>
         </motion.div>
-        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] dropShadow-1">
+        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] hover: dropShadow-2 m-auto">
           <img
             src="/images/icon-warehouse.png"
             alt="assortmen"
@@ -45,7 +45,7 @@ export default function Competencies() {
             организаций и аптек области.
           </p>
         </motion.div>
-        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] dropShadow-1">
+        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] hover: dropShadow-2 m-auto">
           <img
             src="/images/icon-factory.png"
             alt="assortmen"
@@ -59,7 +59,7 @@ export default function Competencies() {
             рецептам врачей и требованиям.
           </p>
         </motion.div>
-        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] hover: dropShadow-1">
+        <motion.div className="bg-[#16181d] rounded-[50px] px-[24px] hover: dropShadow-2 m-auto">
           <img
             src="/images/icon-quality.png"
             alt="assortmen"

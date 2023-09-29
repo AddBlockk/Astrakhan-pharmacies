@@ -118,20 +118,3 @@ export const competenciesSection = {
     },
   },
 };
-
-export const footerVariants = {
-  hidden: {
-    opacity: 0,
-    y: -20,
-    transition: {
-      duration: 1.5,
-    },
-  },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 1.5,
-    },
-  },
-};

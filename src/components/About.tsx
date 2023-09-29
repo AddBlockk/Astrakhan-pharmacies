@@ -1,17 +1,14 @@
 "use client";
 
-import { competenciesSection, footerVariants } from "@/app/utils/motion";
-import { motion } from "framer-motion";
-
 export default function About() {
   return (
     <div className="px-[10px] mb-[30px]">
-      <div className="items-center text-center text-[60px] font-bold m-auto flex-col mb-[40px]">
+      <div className="items-center text-center text-[36px] md:text-[60px] font-bold m-auto flex-col mb-[40px] gap-[20px] flex">
         <h1>Об учреждении</h1>
         <img
           src="/images/heart-of-pharmacies.png"
           alt="heart-of-pharmacies"
-          className="m-auto"
+          className="left-[8px] relative"
         />
       </div>
       <div className="text-[20px] font-semibold text-[#A3B3BC] flex-col flex gap-[20px] ">
