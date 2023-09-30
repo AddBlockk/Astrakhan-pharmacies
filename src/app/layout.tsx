@@ -22,7 +22,7 @@ export default function RootLayout({
       <body
         className={`open_Sans.className bg-[#23272F] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] h-[100%] text-white scrollbar scrollbar-none m-[0_auto]`}
       >
-        <div className="min-h-[100%] flex flex-col">
+        <div className="min-h-[100%] flex flex-col" data-theme="dark">
           <div className="mb-[100px]">
             <Header />
           </div>

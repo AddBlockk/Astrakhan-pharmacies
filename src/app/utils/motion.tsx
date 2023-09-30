@@ -15,7 +15,7 @@ export const headerVariants = {
 export const informationText = {
   hidden: {
     opacity: 0,
-    x: "-50%",
+    x: "-100%",
   },
   show: {
     opacity: 1,
@@ -29,7 +29,7 @@ export const informationText = {
 export const informationImage = {
   hidden: {
     opacity: 0,
-    x: "50%",
+    x: "100%",
   },
   show: {
     opacity: 1,
