@@ -24,7 +24,7 @@ const styles = {
 
   //information section
   informationDiv:
-    "grid grid-cols-[1fr] flex m-auto lg:grid-cols-[1fr_1fr] gap-[1%] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start overflow-hidden ",
+    "grid grid-cols-[1fr] flex m-auto lg:grid-cols-[1fr_1fr] xl:flex xl:justify-between mx-[10px] md:text-center lg:text-start overflow-hidden ",
   informationText: "max-w-[500px] md:max-w-[1000px]",
   informationImg:
     "flex max-w-[100%] md:m-auto lg:max-w-[100%] rounded-[10%] dropShadow-1",
